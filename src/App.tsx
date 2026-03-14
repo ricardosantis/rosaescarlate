@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { Instagram, MessageCircle, ShoppingBag, Leaf, Heart, Sparkles, ChevronLeft, ChevronRight } from 'lucide-react';
+import logoImg from './assets/logo.jpeg';
 
 const PRODUCTS = [
   {
@@ -211,7 +212,7 @@ export default function App() {
           {!logoError ? (
             <div className="mx-auto mb-2 flex justify-center">
               <img 
-                src="/logo.jpeg" 
+                src={logoImg} 
                 alt="Rosa Escarlate Logo" 
                 className="w-64 h-64 md:w-72 md:h-72 object-contain mix-blend-multiply"
                 onError={() => setLogoError(true)}
@@ -305,7 +306,7 @@ export default function App() {
           {!logoError ? (
             <div className="bg-white p-1 rounded-full mb-6">
               <img 
-                src="/logo.jpeg" 
+                src={logoImg} 
                 alt="Rosa Escarlate" 
                 className="w-16 h-16 object-contain rounded-full"
               />
