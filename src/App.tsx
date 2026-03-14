@@ -211,11 +211,12 @@ export default function App() {
         >
           {!logoError ? (
             <div className="mx-auto mb-2 flex justify-center">
+              <h1 className="sr-only">Saboaria Rosa Escarlate</h1>
               <img 
                 src={logoImg} 
-                alt="Rosa Escarlate Logo" 
+                alt="Saboaria Rosa Escarlate Logo" 
                 className="w-64 h-64 md:w-72 md:h-72 object-contain mix-blend-multiply"
-                onError={() => setLogoError(true)}
+                referrerPolicy="no-referrer"
               />
             </div>
           ) : (
@@ -224,12 +225,10 @@ export default function App() {
                 <Sparkles className="w-10 h-10 text-rose-600" strokeWidth={1.5} />
               </div>
               <h1 className="text-5xl md:text-6xl font-serif text-rose-900 mb-4 tracking-tight">
-                Rosa Escarlate
+                Saboaria Rosa Escarlate
               </h1>
             </>
           )}
-          
-          <h1 className="sr-only">Rosa Escarlate</h1>
           
           <p className="text-lg md:text-xl text-earth-800 font-light max-w-lg mx-auto leading-relaxed mt-4">
             Sabonetes artesanais feitos com amor, ingredientes naturais e muito carinho para a sua pele.
@@ -309,6 +308,7 @@ export default function App() {
                 src={logoImg} 
                 alt="Rosa Escarlate" 
                 className="w-16 h-16 object-contain rounded-full"
+                referrerPolicy="no-referrer"
               />
             </div>
           ) : (
