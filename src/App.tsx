@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { Instagram, MessageCircle, ShoppingBag, Leaf, Heart, Sparkles, ChevronLeft, ChevronRight } from 'lucide-react';
-import logoImg from './assets/logo.jpg';
 
 const PRODUCTS = [
   {
@@ -213,7 +212,7 @@ export default function App() {
             <div className="mx-auto mb-2 flex justify-center">
               <h1 className="sr-only">Saboaria Rosa Escarlate</h1>
               <img 
-                src={logoImg} 
+                src="/brand-logo.jpg" 
                 alt="Saboaria Rosa Escarlate Logo" 
                 className="w-64 h-64 md:w-72 md:h-72 object-contain mix-blend-multiply"
                 referrerPolicy="no-referrer"
