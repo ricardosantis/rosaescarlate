@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ais-pre-a6vkmhlrn6ifjmuqlfbqmx-471832247309.us-east1.run.app/sitemap.xml
+Sitemap: https://rosaescarlate.me/sitemap.xml
