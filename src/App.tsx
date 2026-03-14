@@ -305,7 +305,7 @@ export default function App() {
           {!logoError ? (
             <div className="bg-white p-1 rounded-full mb-6">
               <img 
-                src={logoImg} 
+                src="/brand-logo.jpg" 
                 alt="Rosa Escarlate" 
                 className="w-16 h-16 object-contain rounded-full"
                 referrerPolicy="no-referrer"
