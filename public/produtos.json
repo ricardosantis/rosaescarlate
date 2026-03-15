@@ -10,12 +10,11 @@
   },
   {
     "id": 2,
-    "name": "Sabonete de Argila Rosa e Gerânio",
-    "description": "Revitalizante e suave, perfeito para peles sensíveis.",
+    "name": "Sabonete Massageador Calêndula",
+    "description": "Sabonete Massageador Calêndula com Extrato de Camomila 155g",
     "price": "R$ 28,00",
     "images": [
-      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&q=80&w=600&h=600",
-      "https://images.unsplash.com/photo-1584305574647-0cc949a2bb9f?auto=format&fit=crop&q=80&w=600&h=600"
+      "/imagens/sabonete-massageador-calendula-extrato-de-camomila.jpg"
     ]
   },
   {
