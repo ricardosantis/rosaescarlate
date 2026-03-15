@@ -182,7 +182,7 @@ export default function App() {
             <div className="mx-auto mb-2 flex justify-center">
               <h1 className="sr-only">Saboaria Rosa Escarlate</h1>
               <img 
-                src="/brand-logo.jpg" 
+                src="/imagens/brand-logo.jpg" 
                 alt="Saboaria Rosa Escarlate Logo" 
                 className="w-64 h-64 md:w-72 md:h-72 object-contain mix-blend-multiply"
                 referrerPolicy="no-referrer"
@@ -274,7 +274,7 @@ export default function App() {
           {!logoError ? (
             <div className="bg-white p-1 rounded-full mb-6">
               <img 
-                src="/brand-logo.jpg" 
+                src="/imagens/brand-logo.jpg" 
                 alt="Rosa Escarlate" 
                 className="w-16 h-16 object-contain rounded-full"
                 referrerPolicy="no-referrer"
