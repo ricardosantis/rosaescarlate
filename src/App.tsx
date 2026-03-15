@@ -1,59 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Instagram, MessageCircle, ShoppingBag, Leaf, Heart, Sparkles, ChevronLeft, ChevronRight } from 'lucide-react';
 
-const PRODUCTS = [
-  {
-    id: 1,
-    name: 'Sabonete de Lavanda e Camomila',
-    description: 'Relaxante e calmante, ideal para um banho antes de dormir.',
-    price: 'R$ 25,00',
-    images: [
-      'https://images.unsplash.com/photo-1600857062241-98e5dba7f214?auto=format&fit=crop&q=80&w=600&h=600',
-      'https://images.unsplash.com/photo-1612806531406-445584282e3e?auto=format&fit=crop&q=80&w=600&h=600',
-    ],
-  },
-  {
-    id: 2,
-    name: 'Sabonete de Argila Rosa e Gerânio',
-    description: 'Revitalizante e suave, perfeito para peles sensíveis.',
-    price: 'R$ 28,00',
-    images: [
-      'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&q=80&w=600&h=600',
-      'https://images.unsplash.com/photo-1584305574647-0cc949a2bb9f?auto=format&fit=crop&q=80&w=600&h=600',
-    ],
-  },
-  {
-    id: 3,
-    name: 'Sabonete de Mel e Aveia',
-    description: 'Hidratação profunda e esfoliação natural suave.',
-    price: 'R$ 22,00',
-    images: [
-      'https://images.unsplash.com/photo-1584305574647-0cc949a2bb9f?auto=format&fit=crop&q=80&w=600&h=600',
-      'https://images.unsplash.com/photo-1600857062241-98e5dba7f214?auto=format&fit=crop&q=80&w=600&h=600',
-    ],
-  },
-  {
-    id: 4,
-    name: 'Sabonete de Alecrim e Menta',
-    description: 'Energizante e refrescante para começar bem o dia.',
-    price: 'R$ 24,00',
-    images: [
-      'https://images.unsplash.com/photo-1611078489935-0cb964de46d6?auto=format&fit=crop&q=80&w=600&h=600',
-      'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&q=80&w=600&h=600',
-    ],
-  },
-  {
-    id: 5,
-    name: 'Kit Spa Rosa Escarlate',
-    description: 'Uma seleção especial com nossos 3 melhores sabonetes.',
-    price: 'R$ 89,00',
-    images: [
-      'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=600&h=600',
-      'https://images.unsplash.com/photo-1612806531406-445584282e3e?auto=format&fit=crop&q=80&w=600&h=600',
-    ],
-  },
-];
+interface Product {
+  id: number;
+  name: string;
+  description: string;
+  price: string;
+  images: string[];
+}
+
+const [products, setProducts] = useState<Product[]>([]);
+const [loading, setLoading] = useState(true);
+
+useEffect(() => {
+  fetch('/produtos.json')
+    .then(res => res.json())
+    .then(data => {
+      setProducts(data);
+      setLoading(false);
+    })
+    .catch(err => {
+      console.error('Erro ao carregar produtos:', err);
+      setLoading(false);
+    });
+}, []);
 
 const LINKS = [
   {
@@ -287,7 +258,7 @@ export default function App() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {PRODUCTS.map((product, index) => (
+            {products.map((product, index) => (
               <ProductCard 
                 product={product} 
                 index={index} 
