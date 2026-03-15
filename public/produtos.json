@@ -1,12 +1,11 @@
 [
   {
     "id": 1,
-    "name": "Sabonete de Lavanda e Camomila",
-    "description": "Relaxante e calmante, ideal para um banho antes de dormir.",
-    "price": "R$ 25,00",
+    "name": "Sabonete Massageador Morango e Champanhe",
+    "description": "Esfoliante e hidratante com sementes de morango e aroma doce.",
+    "price": "R$ 28,00",
     "images": [
-      "https://images.unsplash.com/photo-1600857062241-98e5dba7f214?auto=format&fit=crop&q=80&w=600&h=600",
-      "https://images.unsplash.com/photo-1612806531406-445584282e3e?auto=format&fit=crop&q=80&w=600&h=600"
+      "/imagens/sabonete-massageador-morango-champagne.jpg"
     ]
   },
   {
