@@ -10,22 +10,6 @@ interface Product {
   images: string[];
 }
 
-const [products, setProducts] = useState<Product[]>([]);
-const [loading, setLoading] = useState(true);
-
-useEffect(() => {
-  fetch('/produtos.json')
-    .then(res => res.json())
-    .then(data => {
-      setProducts(data);
-      setLoading(false);
-    })
-    .catch(err => {
-      console.error('Erro ao carregar produtos:', err);
-      setLoading(false);
-    });
-}, []);
-
 const LINKS = [
   {
     id: 'catalog',
@@ -161,6 +145,21 @@ function ProductCard({ product, onBuy, index }: { product: any, onBuy: (name: st
 
 export default function App() {
   const [logoError, setLogoError] = useState(false);
+  const [products, setProducts] = useState<Product[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch('/produtos.json')
+      .then(res => res.json())
+      .then(data => {
+        setProducts(data);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error('Erro ao carregar produtos:', err);
+        setLoading(false);
+      });
+  }, []);
 
   const handleBuyClick = (productName: string) => {
     const message = encodeURIComponent(`Olá! Gostaria de comprar o ${productName}.`);
