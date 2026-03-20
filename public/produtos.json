@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Sabonete Massageador Morango e Champanhe",
-    "description": "Sabonete Massageador Morango e Champanhe com Extrato de Aveia 155g",
+    "description": "Uma experiência sensorial que envolve seu corpo com o doce aroma de morango e a sofisticação do champanhe. Enriquecido com extrato de aveia, este sabonete massageador nutre sua pele enquanto proporciona uma massagem relaxante, transformando seu banho em um verdadeiro momento de carinho e amor-próprio.",
     "price": "R$ 28,00",
     "images": [
       "/imagens/sabonete-massageador-morango-champagne.jpg"
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Sabonete Massageador Calêndula",
-    "description": "Sabonete Massageador Calêndula com Extrato de Camomila 155g",
+    "description": "Deixe a calidez da calêndula e a suavidade da camomila acariciar sua pele. Este sabonete massageador foi criado para mulheres que valorizam momentos de tranquilidade e autocuidado. Sua fórmula especial com extrato de camomila acalma não apenas a pele, mas também a alma, preparando você para enfrentar o dia com serenidade.",
     "price": "R$ 28,00",
     "images": [
       "/imagens/sabonete-massageador-calendula-extrato-de-camomila.jpg"
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Sabonete Redondo Lavanda Francesa com Extrato de Camomila",
-    "description": "Sabonete Redondo Lavanda Francesa com Extrato de Camomila 64g",
+    "description": "Deixe-se envolver pela elegância atemporal da lavanda francesa, harmoniosamente combinada com o poder calmante da camomila. Este sabonete redondo é um convite a momentos de introspecção e beleza. Sua espuma aveludada libera um perfume delicado que transforma seu banho em um ritual sagrado de amor-próprio e conexão com sua essência feminina.",
     "price": "R$ 22,00",
     "images": [
       "/imagens/sabonete-redondo-lavanda-francesa-com-extrato-de-camomila.jpg"
@@ -28,12 +28,11 @@
   },
   {
     "id": 4,
-    "name": "Sabonete de Alecrim e Menta",
-    "description": "Energizante e refrescante para começar bem o dia.",
-    "price": "R$ 24,00",
+    "name": "Sabonete Quadrado Erva Doce e Lavanda Francesa com Extrato de Camomila",
+    "description": "Uma sinfonia de aromas que dança em sua pele, onde a doçura da erva doce encontra a elegância da lavanda francesa, ambos abraçados pelo carinho da camomila. Este sabonete quadrado foi pensado para mulheres que buscam equilíbrio e harmonia. Cada uso é uma celebração da sua beleza natural, um momento sagrado para reconectar-se com sua energia feminina mais autêntica.",
+    "price": "R$ 25,00",
     "images": [
-      "https://images.unsplash.com/photo-1611078489935-0cb964de46d6?auto=format&fit=crop&q=80&w=600&h=600",
-      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&q=80&w=600&h=600"
+      "/imagens/sabonete-quadrado-erva-doce-e-lavanda-francesa-com-extrato-de-camomila.jpg"
     ]
   },
   {
