@@ -184,7 +184,7 @@ export default function App() {
               <img 
                 src="/imagens/brand-logo.jpg" 
                 alt="Saboaria Rosa Escarlate Logo" 
-                className="w-64 h-64 md:w-72 md:h-72 object-contain mix-blend-multiply"
+                className="w-48 h-48 md:w-56 md:h-56 object-contain mix-blend-multiply"
                 referrerPolicy="no-referrer"
                 onError={() => setLogoError(true)}
               />
