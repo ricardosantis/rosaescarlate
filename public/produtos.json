@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Sabonete Massageador Morango e Champanhe",
     "description": "Uma experiência sensorial que envolve seu corpo com o doce aroma de morango e a sofisticação do champanhe. Enriquecido com extrato de aveia, este sabonete massageador nutre sua pele enquanto proporciona uma massagem relaxante, transformando seu banho em um verdadeiro momento de carinho e amor-próprio.",
-    "price": "R$ 28,00",
+    "price": "R$ 18,00",
     "images": [
       "/imagens/sabonete-massageador-morango-champagne.jpg"
     ]
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Sabonete Massageador Calêndula",
     "description": "Deixe a calidez da calêndula e a suavidade da camomila acariciar sua pele. Este sabonete massageador foi criado para mulheres que valorizam momentos de tranquilidade e autocuidado. Sua fórmula especial com extrato de camomila acalma não apenas a pele, mas também a alma, preparando você para enfrentar o dia com serenidade.",
-    "price": "R$ 28,00",
+    "price": "R$ 18,00",
     "images": [
       "/imagens/sabonete-massageador-calendula-extrato-de-camomila.jpg"
     ]
@@ -21,7 +21,7 @@
     "id": 3,
     "name": "Sabonete Redondo Lavanda Francesa com Extrato de Camomila",
     "description": "Deixe-se envolver pela elegância atemporal da lavanda francesa, harmoniosamente combinada com o poder calmante da camomila. Este sabonete redondo é um convite a momentos de introspecção e beleza. Sua espuma aveludada libera um perfume delicado que transforma seu banho em um ritual sagrado de amor-próprio e conexão com sua essência feminina.",
-    "price": "R$ 22,00",
+    "price": "R$ 10,00",
     "images": [
       "/imagens/sabonete-redondo-lavanda-francesa-com-extrato-de-camomila.jpg"
     ]
@@ -30,19 +30,27 @@
     "id": 4,
     "name": "Sabonete Quadrado Erva Doce e Lavanda Francesa com Extrato de Camomila",
     "description": "Uma sinfonia de aromas que dança em sua pele, onde a doçura da erva doce encontra a elegância da lavanda francesa, ambos abraçados pelo carinho da camomila. Este sabonete quadrado foi pensado para mulheres que buscam equilíbrio e harmonia. Cada uso é uma celebração da sua beleza natural, um momento sagrado para reconectar-se com sua energia feminina mais autêntica.",
-    "price": "R$ 25,00",
+    "price": "R$ 8,00",
     "images": [
       "/imagens/sabonete-quadrado-erva-doce-e-lavanda-francesa-com-extrato-de-camomila.jpg"
     ]
   },
   {
     "id": 5,
-    "name": "Kit Spa Rosa Escarlate",
-    "description": "Uma seleção especial com nossos 3 melhores sabonetes.",
-    "price": "R$ 89,00",
+    "name": "Sabonete Oval Alecrim com Extrato de Aloe Vera",
+    "description": "Sinta a energia revigorante do alecrim envolver sua pele, enquanto o poder hidratante do aloe vera nutre e restaura. Este sabonete oval é um convite para começar seu dia com vitalidade e força. Cada uso renova não apenas sua pele, mas também seu espírito, preparando você para conquistar o mundo com confiança e elegância.",
+    "price": "R$ 16,00",
     "images": [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=600&h=600",
-      "https://images.unsplash.com/photo-1612806531406-445584282e3e?auto=format&fit=crop&q=80&w=600&h=600"
+      "/imagens/sabonete-oval-alecrim-com-extrato-de-aloe-vera.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sabonete Flor Camomila com Extrato de Aveia",
+    "description": "Deixe a delicadeza da camomila em formato de flor acariciar sua alma, enquanto a suavidade da aveia envolve sua pele em um abraço reconfortante. Este sabonete é um convite para momentos de pura serenidade, onde cada espuma se transforma em pétalas de carinho. Sinta seu coração florescer enquanto sua pele se renova com o toque maternal da natureza.",
+    "price": "R$ 14,00",
+    "images": [
+      "/imagens/sabonete-flor-camomila-com-extrato-de-aveia.jpg"
     ]
   }
 ]
