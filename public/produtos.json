@@ -70,5 +70,23 @@
     "images": [
       "/imagens/sabonete-flor-lavanda-francesa-com-extrato-de-aveia.jpg"
     ]
+  },
+  {
+    "id": 9,
+    "name": "Sabonete Redondo Calêndula com Extrato de Camomila",
+    "description": "Abraçe sua pele com a ternura da calêndula, enquanto a camomila acalma seu coração e renova sua alma. Este sabonete redondo é um círculo de amor e cuidado, onde cada toque envolve sua pele em pureza e suavidade. Permita-se momentos de conexão profunda com sua essência mais feminina, onde o banho se transforma em uma oração de gratidão.",
+    "price": "R$ 10,00",
+    "images": [
+      "/imagens/sabonete-redondo-calendula-com-extrato-de-camomila.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Sabonete Redondo Erva Doce e Sal Grosso com Extrato de Aveia",
+    "description": "Sinta a doçura reconfortante da erva doce dançar com o poder purificador do sal grosso, enquanto a aveia acalma e nutre sua pele. Este sabonete é uma jornada de equilíbrio, onde cada uso renova suas energias e restaura sua beleza natural. Deixe-se envolver por essa experiência transformadora que harmoniza corpo, mente e espírito.",
+    "price": "R$ 10,00",
+    "images": [
+      "/imagens/sabonete-redondo-erva-doce-e-sal-grosso-com-extrato-de-aveia.jpg"
+    ]
   }
 ]
