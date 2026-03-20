@@ -19,12 +19,11 @@
   },
   {
     "id": 3,
-    "name": "Sabonete de Mel e Aveia",
-    "description": "Hidratação profunda e esfoliação natural suave.",
+    "name": "Sabonete Redondo Lavanda Francesa com Extrato de Camomila",
+    "description": "Sabonete Redondo Lavanda Francesa com Extrato de Camomila 64g",
     "price": "R$ 22,00",
     "images": [
-      "https://images.unsplash.com/photo-1584305574647-0cc949a2bb9f?auto=format&fit=crop&q=80&w=600&h=600",
-      "https://images.unsplash.com/photo-1600857062241-98e5dba7f214?auto=format&fit=crop&q=80&w=600&h=600"
+      "/imagens/sabonete-redondo-lavanda-francesa-com-extrato-de-camomila.jpg"
     ]
   },
   {

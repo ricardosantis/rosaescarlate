@@ -1,0 +1,22 @@
+{
+  "memories": [
+    {
+      "id": "mem_1773535006465_t4pse7erv",
+      "content": "Created wrangler.toml for Cloudflare Workers static assets deployment. Configuration includes name, compatibility_date, and assets directory pointing to ./dist. The comment \"#:schema ...\" is a necessary schema annotation for wrangler validation.",
+      "type": "config",
+      "tags": [
+        "config",
+        "deployment",
+        "cloudflare",
+        "wrangler"
+      ],
+      "timestamp": "2026-03-15T00:36:46.465Z",
+      "context": "User asked to save a connection file locally using wrangler. Created wrangler.toml with static assets config.",
+      "accessCount": 0,
+      "lastAccessed": "2026-03-15T00:36:46.465Z",
+      "lastVerified": "2026-03-15T00:36:46.465Z",
+      "status": "fresh"
+    }
+  ],
+  "lastUpdated": "2026-03-15T00:36:46.465Z"
+}
