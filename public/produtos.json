@@ -48,9 +48,27 @@
     "id": 6,
     "name": "Sabonete Flor Camomila com Extrato de Aveia",
     "description": "Deixe a delicadeza da camomila em formato de flor acariciar sua alma, enquanto a suavidade da aveia envolve sua pele em um abraço reconfortante. Este sabonete é um convite para momentos de pura serenidade, onde cada espuma se transforma em pétalas de carinho. Sinta seu coração florescer enquanto sua pele se renova com o toque maternal da natureza.",
-    "price": "R$ 14,00",
+    "price": "R$ 12,00",
     "images": [
       "/imagens/sabonete-flor-camomila-com-extrato-de-aveia.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Sabonete Quadrado Alecrim e Sal Grosso com Extrato de Aloe Vera",
+    "description": "Sinta a força purificante do sal grosso combinada com a energia revigorante do alecrim, enquanto o aloe vera acalma e nutre. Este sabonete é uma cerimônia de renovação, onde cada uso remove as energias pesadas e renova sua pele com o poder da natureza. Deixe-se envolver por essa experiência transformadora que equilibra corpo e espírito.",
+    "price": "R$ 14,00",
+    "images": [
+      "/imagens/sabonete-quadrado-alecrim-e-sal-grosso-com-extrato-de aloe-vera.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Sabonete Flor Lavanda Francesa com Extrato de Aveia",
+    "description": "Deixe-se levar pela suavidade da lavanda em formato de flor, enquanto a aveia envolve sua pele em um manto de conforto. Este sabonete é um convite para momentos de introspecção profunda, onde cada espuma libera uma sinfonia de aromas que acalmam a mente e nutrem a alma. Sinta-se envolvida pelo amor e pela paz que só a natureza pode oferecer.",
+    "price": "R$ 12,00",
+    "images": [
+      "/imagens/sabonete-flor-lavanda-francesa-com-extrato-de-aveia.jpg"
     ]
   }
 ]
